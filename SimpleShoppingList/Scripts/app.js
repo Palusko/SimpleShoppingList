@@ -9,7 +9,7 @@ function createShoppingList() {
     type: "POST",
     dataType: "json",
     url: "api/ShoppingListsEF/",
-    data: currentList, //our  new list
+    data: currentList, //our  new  list
     success: function (result) {
       currentList = result;
       showShoppingList();
